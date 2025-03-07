@@ -4,6 +4,6 @@ const { getAllcarreviews, addcarReviews } = require("../controller/reviewControl
 const router = express.Router()
 
 router.get("/" , getAllcarreviews)
-router.post("/", addcarReviews)
+router.post("/add", addcarReviews)
 
 module.exports=router

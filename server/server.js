@@ -35,6 +35,9 @@ app.use ("/api/admin" , require("./routes/adminRoutes"))
 
 app.use ("/api/rentals" , require("./routes/rentalRoutes"))
 
+// reviewa routes
+app.use("api/reviews" , require("./routes/reviewsRoutes"))
+
 app.listen(Port, () => {
   console.log(`server is runing at port ${Port}`);
 });
