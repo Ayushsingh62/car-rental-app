@@ -3,7 +3,7 @@ const getCars = async (req, res) => {
 };
 
 const getCar = async (req, res) => {
-  res.send("Single cars ");
+  res.send("Single car ");
 };
 
 
